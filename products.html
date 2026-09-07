@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>North Star Bakery | Products</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -40,6 +41,58 @@
 
             <img src="bakery-bread_c.png"
                  alt="Fresh assortment of artisan bread baked at North Star Bakery">
+        </section>
+
+        <section>
+            <h2>Save Your Bakery Favorites</h2>
+
+            <p>
+                Planning your next visit? Save the bakery items that sound
+                best to you. Your favorites will stay saved even if you
+                refresh the page or come back later.
+            </p>
+
+            <div class="favorite-options">
+                <button type="button"
+                        class="favorite-button"
+                        data-item="Classic Artisan Loaf">
+                    Save Classic Artisan Loaf
+                </button>
+
+                <button type="button"
+                        class="favorite-button"
+                        data-item="Seasonal Bread">
+                    Save Seasonal Bread
+                </button>
+
+                <button type="button"
+                        class="favorite-button"
+                        data-item="Morning Pastry">
+                    Save Morning Pastry
+                </button>
+
+                <button type="button"
+                        class="favorite-button"
+                        data-item="Pastry Box">
+                    Save Pastry Box
+                </button>
+
+                <button type="button"
+                        class="favorite-button"
+                        data-item="Celebration Cake">
+                    Save Celebration Cake
+                </button>
+            </div>
+
+            <div id="favorites-display">
+                You have not saved any bakery favorites yet.
+            </div>
+
+            <p>
+                <button type="button" id="clear-favorites">
+                    Clear Favorites
+                </button>
+            </p>
         </section>
 
         <section>
